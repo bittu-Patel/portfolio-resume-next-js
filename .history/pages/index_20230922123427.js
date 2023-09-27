@@ -1,0 +1,13 @@
+import Navbar from '../components/Navbar.jsx'
+import React from 'react'
+
+const index = () => {
+  return (
+    <div>
+      <Navbar />
+     <Mai
+    </div>
+  )
+}
+
+export default index
