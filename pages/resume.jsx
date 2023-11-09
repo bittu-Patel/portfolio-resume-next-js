@@ -74,6 +74,9 @@ const resume = () => {
             <span className='px-2'>|</span>Redux
             <span className='px-2'>|</span>Tailwind
             <span className='px-2'>|</span> RESTAPI
+            <span className='px-2'>|</span> API
+
+
           </p>
           <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>

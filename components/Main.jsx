@@ -16,7 +16,7 @@ const Main = () => {
           A Front-End Web Developer
           </h1>
           <p className='py-5 text-gray-600 max-w-[70%] m-auto'>As a frontend developer building a dynamic web application, you&apos;re responsible for creating the user interface and user experience of the application.</p>
-        <div className=' gap-4 flex items-center justify-center max-w-[330px] m-auto py-5'>
+        <div className=' gap-6 flex items-center justify-center max-w-[330px] m-auto py-5'>
 
         <a
                     href='https://www.linkedin.com/in/bittu-kumar-98ab54244/'
@@ -26,6 +26,7 @@ const Main = () => {
 <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
   <FaLinkedinIn />
 </div>
+<span className='font-bold'>Linkedin</span>
 </a>
 <a
                     href='https://github.com/bittu-Patel'
@@ -35,16 +36,22 @@ const Main = () => {
 <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
   <FaGithub />
 </div>
+<span className='font-bold gap-3'>GitHub</span>
+
 </a>
 <Link href='/#contact'>
 <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
   <AiOutlineMail />
 </div>
+<span className='font-bold gap-3'>Contact</span>
+
 </Link>
 <Link href='/resume'>
 <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
   <BsFillPersonLinesFill />
 </div>
+<span className='font-bold'>Resume</span>
+
 </Link>
         </div>
         </div>
